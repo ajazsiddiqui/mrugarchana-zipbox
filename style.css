@@ -5,7 +5,9 @@
   background: #2E2D7F !important;
 }
 .brown {
-  background: #FCFBE9 !important;
+	background: #FCFBE9 !important;
+	height: 100px;
+	padding-top: 20px;
 }
 .ocean {
   background: #41BCBF !important;
@@ -1103,11 +1105,12 @@ p {
   background: linear-gradient(0deg, #5c279c, #c13664);
 }
 .slider-item-4 {
-  background: #51a1d6;
-  background: -webkit-linear-gradient(0deg, #3d8bc0, #51a1d6);
-  background: -o-linear-gradient(0deg, #3d8bc0, #51a1d6);
-  background: -moz-linear-gradient(0deg, #3d8bc0, #51a1d6);
-  background: linear-gradient(0deg, #3d8bc0, #51a1d6);
+	background: #7d2521;
+	background: -moz-linear-gradient(-45deg, #7d2521 0%, #601a1a 100%);
+	background: -webkit-linear-gradient(-45deg, #7d2521 0%,#601a1a 100%);
+	background: linear-gradient(135deg, #7d2521 0%,#601a1a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d2521', endColorstr='#601a1a',GradientType=1 );
+	text-align:center;
 }
 .slider-item-6 {
   background: #2c84fb;
@@ -1151,14 +1154,21 @@ p {
   max-width: 80px;
 }
 .logo-holder{
-	background: #20346d;
-	background: -moz-linear-gradient(45deg, #20346d 0%, #121c3e 100%);
-	background: -webkit-linear-gradient(45deg, #20346d 0%,#121c3e 100%);
-	background: linear-gradient(45deg, #20346d 0%,#121c3e 100%);
-	background-attachment: scroll;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20346d', endColorstr='#121c3e',GradientType=1 );
+	padding-right: 0 !important;
+	background: url('images/bg.jpg') #f7f5f7;
+	background-repeat: repeat;
+	background-size: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
-
+.brown-gradient{
+	background: #7d2521;
+	background: -moz-linear-gradient(-45deg, #7d2521 0%, #601a1a 100%);
+	background: -webkit-linear-gradient(-45deg, #7d2521 0%,#601a1a 100%);
+	background: linear-gradient(135deg, #7d2521 0%,#601a1a 100%);
+	filter: progid:DXImageTransform.Microsoft.gra
+}
 .infra-holder, .vikhroli-holder {
   background-repeat: repeat;
   background-size: auto;
@@ -1175,8 +1185,8 @@ p {
   background-color: #df1e46;
 }
 .logo-holder img {
-  max-width: 180px;
-  top: 40%;
+  max-width: 160px;
+  top: 30%;
 }
 .logo-holder .title,.map-holder .title,.video-holder .title,.slider-item-2 .title,.developer-holder .title {
   position: absolute;
@@ -1234,7 +1244,7 @@ p {
 }
 .elevation-holder {
   background: url('images/elevation.png');
-  background-color: #2f2d80;
+  background-color: #6298d6;
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -1627,4 +1637,15 @@ p {
 .popup-modal-dismiss{
 	font-size:18px;
 	color: #2e2d7f;
+}
+
+.ng-container.alt{
+	height: 60vh;
+}
+
+.mrugarchana-effect2{
+	background: transparent !important;
+	border-bottom: 2px solid #f7d0b9;
+	line-height: 1.2 !important;
+	color: #f7d0b9 !important;
 }
